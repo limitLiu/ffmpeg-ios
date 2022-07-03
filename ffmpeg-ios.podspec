@@ -7,13 +7,12 @@ libavdevice = 'libavdevice'
 libavfilter = 'libavfilter'
 libpostproc = 'libpostproc'
 
-NAME = "ffmpeg-ios"
-VERSION = "4.3.1"
-
 Pod::Spec.new do |s|
+  name = "ffmpeg-ios"
+  version = "4.3.1"
 
-  s.name         = "#{NAME}"
-  s.version      = "#{VERSION}"
+  s.name         = "#{name}"
+  s.version      = "#{version}"
   s.summary      = "A pod repo of 4.3 FFmpeg static libraries for ios."
   s.description  = "FFmpeg code base"
 
